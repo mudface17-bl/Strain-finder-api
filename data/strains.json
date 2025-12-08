@@ -1,0 +1,32 @@
+[
+  {
+    "name": "White Widow",
+    "type": "Hybrid",
+    "thc": "18-25%",
+    "cbd": "0-1%",
+    "effects": ["Relaxed", "Happy", "Euphoric", "Uplifted"],
+    "terpenes": ["Myrcene", "Caryophyllene"],
+    "flavors": ["Earthy", "Pine", "Sour"],
+    "medical": ["Stress", "Pain", "Depression"]
+  },
+  {
+    "name": "Blue Dream",
+    "type": "Sativa Hybrid",
+    "thc": "17-24%",
+    "cbd": "0-1%",
+    "effects": ["Creative", "Energetic", "Uplifted"],
+    "terpenes": ["Pinene", "Limonene"],
+    "flavors": ["Berry", "Sweet", "Herbal"],
+    "medical": ["Fatigue", "Stress", "Pain"]
+  },
+  {
+    "name": "OG Kush",
+    "type": "Hybrid",
+    "thc": "20-26%",
+    "cbd": "0-1%",
+    "effects": ["Sleepy", "Relaxed", "Happy"],
+    "terpenes": ["Myrcene", "Limonene"],
+    "flavors": ["Lemon", "Pine", "Diesel"],
+    "medical": ["Insomnia", "Anxiety", "Pain"]
+  }
+]
