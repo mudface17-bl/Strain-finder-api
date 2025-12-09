@@ -1,5 +1,7 @@
 const express = require("express");
 const cors = require("cors");
+
+// Load JSON data
 const strains = require("./data/strains.json");
 const dispensaries = require("./data/dispensaries.json");
 
@@ -28,7 +30,9 @@ app.get("/strain/:name", (req, res) => {
     (s) => s.name.toLowerCase() === name
   );
 
-  if (!strain) return res.status(404).json({ error: "Not found" });
+  if (!strain) {
+    return res.status(404).json({ error: "Strain not found" });
+  }
 
   res.json(strain);
 });
@@ -45,5 +49,6 @@ app.get("/nearby", (req, res) => {
   res.json(matches);
 });
 
+// --- START SERVER ---
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, () => console.log("API running on " + PORT));
+app.listen(PORT, () => console.log(`API running on port ${PORT}`));
